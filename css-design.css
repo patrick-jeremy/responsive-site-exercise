@@ -1,6 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F0F0F0;
+    width: 100%;
+    border: 1px solid lime;
 
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-container-sm {
+    display: none;
 }
 
 .row:after {
@@ -15,13 +31,15 @@ body {
     background-color: white;
     margin: 0;
     margin-top: 50px;
+    padding: 0;
+    position: relative;
 
 }
 
 .headlogo {
     width: 105px;
     height: 105px;
-    margin-top: -88;
+    margin-top: -88px;
     z-index: 1000;
 
 }
@@ -47,6 +65,8 @@ body {
 
 .font-anton-h1 {
     font-size: 64px;
+    position: relative;
+    bottom: 50px;
 }
 
 .font-anton-h2 {
@@ -59,11 +79,7 @@ body {
 }
 
 .selected-work {
-    margin-top: 150px;
-}
-
-featured-projects {
-
+    border: 1px solid black;
 }
 
 .img-small {
@@ -82,4 +98,73 @@ featured-projects {
 .icon-img img {
     width: 25px;
     height: 25px;
+}
+
+@media only screen and (min-width: 576px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .nav-container{
+        display: none;
+    }
+
+    .nav-container-sm {
+        display: block;
+        line-height: 75px;
+    }
+
+    .body-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .codeup-design-text {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .font-anton-h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .font-anton-h2 {
+        font-size: 36px;
+        position: relative;
+        bottom: 75px;
+    }
+
+    .badge-row {
+        position: relative;
+        bottom: 100px;
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    .hr {
+        border: 1px solid black;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: red;
+    }
+
 }
