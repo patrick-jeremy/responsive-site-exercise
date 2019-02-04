@@ -1,5 +1,12 @@
 body {
     background-color: #F0F0F0;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .headbar {
@@ -18,3 +25,31 @@ body {
     z-index: 1000;
 
 }
+
+.nav-container {
+    width: 75%;
+}
+
+.body-container {
+    width:90%;
+    margin: 0 auto;
+    border: 1px solid lime;
+}
+
+.font-abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.font-anton {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
+.font-anton-h1 {
+    font-size: 64px;
+}
+
+.font-anton-h2 {
+    font-size: 48px;
+}
+
