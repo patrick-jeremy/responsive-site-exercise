@@ -33,6 +33,7 @@ body {
 .body-container {
     width:90%;
     margin: 0 auto;
+    border: solid black;
 }
 
 .font-abel {
@@ -54,5 +55,16 @@ body {
 
 .circlesize {
     width: 100%;
+
+}
+
+.selected-work {
+    margin-top: 150px;
+}
+
+.featured-projects {
+    width: 90%;
+    border: 1px solid red;
+    height: 200px;
 
 }
