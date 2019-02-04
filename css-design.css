@@ -33,7 +33,6 @@ body {
 .body-container {
     width:90%;
     margin: 0 auto;
-    border: 1px solid lime;
 }
 
 .font-abel {
@@ -53,3 +52,7 @@ body {
     font-size: 48px;
 }
 
+.circlesize {
+    width: 100%;
+
+}
