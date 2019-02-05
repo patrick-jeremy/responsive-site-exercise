@@ -6,6 +6,8 @@ body {
     background-color: #F0F0F0;
     width: 100%;
     border: 1px solid lime;
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
 
@@ -13,6 +15,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    max-width: 2000px;
 }
 
 .nav-container-sm {
@@ -73,13 +76,13 @@ body {
     font-size: 48px;
 }
 
+.font-anton-h3 {
+    font-size: 20px;
+}
+
 .circlesize {
     width: 100%;
 
-}
-
-.selected-work {
-    border: 1px solid black;
 }
 
 .img-small {
@@ -100,12 +103,29 @@ body {
     height: 25px;
 }
 
+.small-pic {
+    display: none;
+}
+
+.twitter-section {
+    display: none;
+}
+
+.md-toggle {
+    visibility: hidden;
+}
+
+.nav-container-md {
+    display: none;
+}
+
+
 @media only screen and (min-width: 576px) {
     body {
         background-color: lightblue;
     }
 
-    .nav-container{
+    .nav-container-xs {
         display: none;
     }
 
@@ -140,15 +160,23 @@ body {
         bottom: 100px;
         width: 80%;
         margin: 0 auto;
-        border: 1px solid black;
+        max-width: 500px;
     }
 
-    .hr {
-        border: 1px solid black;
-
+    .hrelement {
+        border-top: 2px solid #e6e6e6;
+        height: 10px;
+        margin-top: -80;
+        width: 75%;
     }
 
+    .xs-pic {
+        display: none;
+    }
 
+    .small-pic {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -156,15 +184,61 @@ body {
         background-color: orange;
     }
 
+    .twitter-section {
+        display: block;
+    }
+
+    .selected-work-text {
+        visibility: hidden;
+    }
+
+    .md-toggle {
+        visibility: visible;
+    }
+
+    .twitter-section img {
+        width: 100%;
+    }
+
+    .nav-container-sm {
+        visibility: hidden;
+    }
 
 
+    .headlogo {
+        width: 105px;
+        height: 105px;
+        margin-top: -88px;
+        z-index: 1000;
+        position: relative;
+        right: 35%;
 
+    }
 
+    .codeup-design-text {
+        position: relative;
+        bottom: 103px;
+        right: 13%;
+    }
+
+    .nav-container-md {
+        display: block;
+        position: relative;
+        bottom: 96px;
+        left: 63%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     body {
         background-color: red;
     }
+
+    /*.nav-container-md {*/
+        /*display: block;*/
+        /*position: relative;*/
+        /*bottom: 96px;*/
+        /*left: 500px;*/
+    /*}*/
 
 }
