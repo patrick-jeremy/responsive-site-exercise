@@ -5,7 +5,6 @@
 body {
     background-color: #F0F0F0;
     width: 100%;
-    max-width: 2000px;
     margin: 0 auto;
 
 }
@@ -14,11 +13,11 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: 2500px;
+    max-width: 1024px;
 }
 
 .header {
-    max-width: 1800px;
+    /*max-width: 1800px;*/
 }
 
 .main-body {
@@ -58,6 +57,16 @@ body {
 
 .nav-container {
     width: 75%;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.nav-links a:hover {
+   color: rgba(27, 171, 169);
+    font-size: larger;
+    text-decoration: none;
 }
 
 .body-container {
@@ -132,7 +141,7 @@ body {
 
 @media only screen and (min-width: 576px) {
     body {
-        /*background-color: lightblue;*/
+        background-color: lightblue;
     }
 
     .nav-container-xs {
@@ -191,7 +200,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     body {
-        /*background-color: orange;*/
+        background-color: orange;
     }
 
     .twitter-section {
@@ -237,18 +246,21 @@ body {
         bottom: 96px;
         left: 63%;
     }
+
+    .nav-links {
+        color: black;
+    }
+
+    .nav-links:hover {
+        color: rgba(27, 171, 169);
+        font-size: larger;
+        text-decoration: none;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     body {
-        /*background-color: red;*/
+        background-color: red;
     }
-
-    /*.nav-container-md {*/
-        /*display: block;*/
-        /*position: relative;*/
-        /*bottom: 96px;*/
-        /*left: 500px;*/
-    /*}*/
 
 }
