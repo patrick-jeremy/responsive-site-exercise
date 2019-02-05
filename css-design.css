@@ -5,8 +5,7 @@
 body {
     background-color: #F0F0F0;
     width: 100%;
-    border: 1px solid lime;
-    max-width: 1000px;
+    max-width: 2000px;
     margin: 0 auto;
 
 }
@@ -15,11 +14,21 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    max-width: 2000px;
+    max-width: 2500px;
+}
+
+.header {
+    max-width: 1800px;
+}
+
+.main-body {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .nav-container-sm {
     display: none;
+    padding:0
 }
 
 .row:after {
@@ -54,6 +63,7 @@ body {
 .body-container {
     width:90%;
     margin: 0 auto;
+    max-width: 1200px;
     /*border: solid black;*/
 }
 
@@ -122,7 +132,7 @@ body {
 
 @media only screen and (min-width: 576px) {
     body {
-        background-color: lightblue;
+        /*background-color: lightblue;*/
     }
 
     .nav-container-xs {
@@ -181,7 +191,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     body {
-        background-color: orange;
+        /*background-color: orange;*/
     }
 
     .twitter-section {
@@ -218,7 +228,7 @@ body {
     .codeup-design-text {
         position: relative;
         bottom: 103px;
-        right: 13%;
+        right: 95px;
     }
 
     .nav-container-md {
@@ -231,7 +241,7 @@ body {
 
 @media only screen and (min-width: 992px) {
     body {
-        background-color: red;
+        /*background-color: red;*/
     }
 
     /*.nav-container-md {*/
